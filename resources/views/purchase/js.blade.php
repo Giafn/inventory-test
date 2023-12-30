@@ -110,7 +110,7 @@
                     render: function(data) {
                         let total = 0;
                         data.details.forEach((details, index) => {
-                            total += details.price * details.qty;
+                            total += details.price;
                         });
                         // format to IDR
                         return new Intl.NumberFormat('id-ID', {
