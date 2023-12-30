@@ -15,7 +15,6 @@ return [
         'permissions' => [
             'dashboard',
             'sales', 'sales-manage', 'sales-export',
-            'inventory'
         ]
     ],
     3 => [
